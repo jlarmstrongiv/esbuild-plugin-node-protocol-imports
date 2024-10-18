@@ -17,7 +17,7 @@ const allBuiltinModulesRegex = new RegExp(
 // Chunks can contain `require("node:*")`, this is not allowed and breaks at runtime
 // the following fixes this by updating the require to a standard esm import from "node:*"
 const esbuildPluginNodeProtocolImports: Plugin = {
-  name: "node-protocol-imports",
+  name: "esbuild-plugin-node-protocol-imports",
   setup(build) {
     build.onResolve({ filter: allBuiltinModulesRegex }, ({ kind, path }) => {
       if (

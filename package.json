@@ -30,8 +30,11 @@
   ],
   "devDependencies": {
     "@tsconfig/node20": "20.1.4",
+    "@types/fs-extra": "11.0.4",
     "@types/node": "22.5.4",
+    "dts-bundle-generator": "9.5.1",
     "esbuild": "0.24.0",
+    "fs-extra": "11.2.0",
     "tsx": "4.19.1",
     "typescript": "5.5.4"
   },
