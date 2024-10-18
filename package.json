@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-node-protocol-imports",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "type": "module",
   "description": "Replace node builtin module imports to node protocol imports",
